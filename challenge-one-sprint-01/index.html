@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+    <title>Sprint 01</title>
+</head>
+
+<body>
+    <header class="header">ONE Challenge 01 - Encriptador de texto </header>
+
+    <div class="row">
+        <div class="col-3 menu">
+            <img src="resources/logo.png">
+
+        </div>
+
+        <div class="col-6 content">
+            <textarea id="textbox" rows="10" cols="40" placeholder="Ingrese el texto aqui"></textarea>
+            <div id="footer-buttons">
+                <h3>Solo letras minúsculas y sin acentos</h3>
+                <p></p>
+                <button id="btnEncriptar"class="button-27" role="button" onclick="encryptText('textbox');">Encriptar</button>
+                <button id="btnDesencriptar" class="button-28" role="button" onclick="decryptText('textbox');">Desencriptar</button>
+
+            </div>
+
+        </div>
+
+        <div class="col-3">
+            <div id="aside" class="aside">
+                <img id="sideimage" src="resources/sideimage.png">
+                <h2>Ningún mensaje encontrado</h2>
+                <h4>Ingresa el texto que deseas encriptar o desencriptar</h4>
+            </div>
+            <div id="aside-copy" class="aside" hidden>
+                <h3 id="textside">Este es un texto de ejemplo desencriptado</h3>
+                <button id="btnCopiar" class="button-28" role="button" onclick="copyText('textside');">Copiar</button>
+
+            </div>
+        </div>        
+    </div>
+    <footer class="footer">Diseñado por Elimelet Caraballo Abad</footer>
+</body>
+
+</html>
