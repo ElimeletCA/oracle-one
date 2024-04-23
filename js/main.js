@@ -1,4 +1,4 @@
-let encryptedlist = ["enter", "imes", "ai", "ober", "ufat"];
+let encryptedlist = ["en1t!$er4", "im%#es", "ai&", "ob%>er", "uf$@at5"];
 
 
 
